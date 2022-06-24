@@ -3,8 +3,11 @@ Projeto da Matéria de Engenharia de Software
 projeto feito no TOMCAT 9.06
 
 ambiente de desenvolvimento Netbeans
+
 front-end: HTML+CSS
+
 back-end: Java
+
 BD: Mysql
 
 Repositorios de intalação:

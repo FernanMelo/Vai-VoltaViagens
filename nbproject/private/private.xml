@@ -3,13 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Dao/ConexaoDAO.java</file>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Model/Login.java</file>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/index.jsp</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/CadastroCliente.jsp</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/WEB-INF/context.xml</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/WEB-INF/web.xml</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/DAO/ConnectionBD.java</file>
             <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/Login.jsp</file>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/style.css</file>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/cadastro.jsp</file>
-            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Model/Cadastro.java</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Model/CadastroCliente.java</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Controler/CadastroClienteController.java</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/Model/Login.java</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/index.html</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/DAO/DAOCliente.java</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/index.jsp</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/META-INF/context.xml</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/CadastroCliente.html</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/web/Login.html</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/conf/MANIFEST.MF</file>
+            <file>file:/home/filty/Documentos/Projetos%20Facu/JavaV&amp;V/ProjectJava/src/java/JavaVVv/DAO/DAOLogin.java</file>
         </group>
     </open-files>
 </project-private>

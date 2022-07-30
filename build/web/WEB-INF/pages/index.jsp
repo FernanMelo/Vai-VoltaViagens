@@ -20,8 +20,8 @@
                         <img src="Imagens/logo Vai&VoltaViagens.png">
                     </div>
                     <div id="menu">
-                        <a id="login" href="Login.jsp"> login<a/>
-                        OU<a href="CadastroCliente.jsp"> Cadastre</a>
+                        <a id="login" href="Login.html"> login<a/>
+                        OU<a href="CadastroCliente.html"> Cadastre</a>
                         <a id="funcionarios" href="#"> Reservados Funcionarios</a>
                      </div>    
                 </div>

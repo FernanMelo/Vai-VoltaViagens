@@ -4,18 +4,39 @@
  */
 package JavaVVv.Model;
 
+import JavaVVv.DAO.DAOCliente;
 import java.util.Date;
 
 
-public class Cadastro {
+public class CadastroCliente {
     private int codCliente;
     private String Nome;
-    private String email;
     private String endereco;
     private String CPF;
-    private String telfone;
-    private Date idade;
+    private String telefone1;
+    private String telefone2;
+    
+    public CadastroCliente(){
+    
+    }
 
+    public CadastroCliente(String Nome, String endereco, String CPF, String telefone1, String telefone2) {
+        this.Nome = Nome;
+        this.endereco = endereco;
+        this.CPF = CPF;
+        this.telefone1 = telefone1;
+        this.telefone2 = telefone2;
+    }
+    
+    public CadastroCliente(int codCliente, String Nome, String endereco, String CPF, String telefone1, String telefone2){
+             this.codCliente = codCliente;
+             this.Nome = Nome;
+             this.endereco = endereco;
+             this.CPF = CPF;
+             this.telefone1 = telefone1;
+             this.telefone2 = telefone2;
+    
+    }
     public int getCodCliente() {
         return codCliente;
     }
@@ -30,14 +51,6 @@ public class Cadastro {
 
     public void setNome(String Nome) {
         this.Nome = Nome;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getEndereco() {
@@ -56,21 +69,27 @@ public class Cadastro {
         this.CPF = CPF;
     }
 
-    public String getTelfone() {
-        return telfone;
+    public String getTelfone1() {
+        return telefone1;
     }
 
-    public void setTelfone(String telfone) {
-        this.telfone = telfone;
+    public void setTelfone1(String telfone1) {
+        this.telefone1 = telefone1;
+    }
+    
+     public String getTelfone2() {
+        return telefone2;
     }
 
-    public Date getIdade() {
-        return idade;
+    public void setTelfone2(String telfone2) {
+        this.telefone2 = telefone2;
     }
 
-    public void setIdade(Date idade) {
-        this.idade = idade;
-    }
+   // public void salvarCliente(){
+     //   new DAOCliente().CadastroCliente(this);
+    //}
+
+ 
     
     
 }

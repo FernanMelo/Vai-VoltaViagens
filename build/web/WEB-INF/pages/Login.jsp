@@ -15,7 +15,7 @@
     <body>
         <div  id="container_cadastro">
             <h1> Para Logar no Sistema infome seu login e senha</h1>
-            <form name="form1" method="post" action="">
+            <form name="form1" method="get" action="">
                  <div class="full-box">
                     <label  for="userName">Usuario</label>
                     <input type="text" name="userName" id="userName" placeholder="Digite um usuario/login">
@@ -25,13 +25,6 @@
                     <input type="password" name="password" id="password" placeholder="Digite uma senha">
                 </div>
                 <input type="submit" name="Submit" value="Logar"> 
-                <div>
-                    <% 
-                       String mensagem = (String) request.getAttribute("mensagem");
-                       if (mensagem != null)
-                           out.print(mensagem);
-                    %>    
-                </div>
             </form>
         </div>
     </body> 

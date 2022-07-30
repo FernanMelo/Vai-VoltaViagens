@@ -37,7 +37,9 @@ background-color: darkgray;
 border-radius: 10px;
 padding: 25px;
 }
-
+#parameterSenha{
+    font-size: smaller;
+}
 input,label{
     display: block;
     width: 100%

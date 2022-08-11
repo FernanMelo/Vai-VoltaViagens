@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>VaiVoltaViagens</display-name>
+    <servlet>
+        <servlet-name>CadastroCliente</servlet-name>
+        <servlet-class>vVV.controller.CadastroClienteController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>vVV.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastroFuncionario</servlet-name>
+        <servlet-class>vVV.controller.CadastroFuncionarioController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscarModal</servlet-name>
+        <servlet-class>vVV.controller.BuscarModalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadastroCliente</servlet-name>
+        <url-pattern>/cadastroClienteController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/loginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroFuncionario</servlet-name>
+        <url-pattern>/cadastroFuncionarioController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarModal</servlet-name>
+        <url-pattern>/buscarModalController</url-pattern>
+    </servlet-mapping>
+</web-app>
